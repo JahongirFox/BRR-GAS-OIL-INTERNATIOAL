@@ -14,10 +14,10 @@ const toggleMenu = () => {
   return (
     <div className="Navbar">
       <div className="Flex-div">
-        <div className="Nav-flex">
+        <a href={"http://localhost:3000/"}><div className="Nav-flex">
           <img width={'76px'} src={BRR} alt="BRR Logo" />
           <p>BRR GAS OIL <br /> INTERNATIONAL</p>
-        </div>
+        </div></a>
 
         {/* Hamburger Menu */}
         <div
@@ -31,7 +31,7 @@ const toggleMenu = () => {
 
         {/* Nav Links */}
         <ul className={`nav-links ${isOpen ? "visible" : ""}`} id="nav-links">
-          <li><a href="#home">Главная</a></li>
+          <li><a href="http://localhost:3000/">Главная</a></li>
           {/* <p>|</p> */}
           <li><a href="#about">О нас</a></li>
           {/* <p>|</p> */}

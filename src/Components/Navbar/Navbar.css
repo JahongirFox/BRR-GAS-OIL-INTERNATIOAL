@@ -88,8 +88,12 @@ body {
 
   .nav-links li a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
+  }
+  .nav-links li a:hover {
+    color: #CD7A4A;
+    transition: 0.5s;
   }
   
   .nav-links.hidden {
@@ -115,17 +119,28 @@ body {
       font-size: 24px;
       font-weight: 400;
   }
-  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .nav-links li a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
     .nav-links {
       flex-direction: column;
       text-align: center;
       background-color: #CD7A4A;
       border-radius: 10px;
-      padding: 5vh 0vh;
-      margin-top: 6vh;
+      padding: 3vh 0vh;
+      margin-top: 5vh;
       position: absolute;
+      gap: 30px;
       top: 50px;
       right: 20px;
+      height: 400px;
       width: 200px;
       display: none;
     }

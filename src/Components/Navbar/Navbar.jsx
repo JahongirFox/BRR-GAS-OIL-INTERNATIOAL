@@ -39,7 +39,7 @@ const toggleMenu = () => {
           {/* <p>|</p> */}
           <li><a href="#contact">Бензин</a></li>
           {/* <p>|</p> */}
-          <li><a href="#contact">Категории <br /> промышленности</a></li>
+          <li><a href="#contact">Категории промышленности</a></li>
           {/* <p>|</p> */}
           <li><a href="#contact">Контакты</a></li>
           {/* <p>|</p> */}

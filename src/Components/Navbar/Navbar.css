@@ -88,8 +88,8 @@ body {
 
   .nav-links li a {
     text-decoration: none;
-    color: white;
-    font-size: 25px;
+    color: black;
+    font-size: 20px;
   }
   
   .nav-links.hidden {
@@ -122,11 +122,11 @@ body {
       background-color: #CD7A4A;
       border-radius: 10px;
       padding: 5vh 0vh;
-      margin-top: 5vh;
+      margin-top: 6vh;
       position: absolute;
       top: 50px;
       right: 20px;
-      width: 300px;
+      width: 200px;
       display: none;
     }
   

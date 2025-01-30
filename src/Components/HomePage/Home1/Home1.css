@@ -365,3 +365,57 @@
         width: 270px;
     }
 }
+@media (max-width: 260px){
+    .Home-p{
+        color: white;
+        font-size: 15px;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 50%;
+        line-height: 24px;
+    }
+    .home-btn{
+        color: rgb(0, 0, 0);
+        font-size: 11px;
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(205, 122, 74);
+        border: 1px solid rgb(205, 122, 74);
+    }
+    .home-btn:hover{
+        color: white;
+        font-size: 11px;
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: black;
+        transition: 0.5s;
+        border: 1px solid rgb(205, 122, 74);
+    }
+    .home-btn2{
+        color: white;
+        font-size: 11px;
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: black;
+        border: 1px solid rgb(205, 122, 74);
+    }
+    .home-btn2:hover{
+        transition: 0.5s;
+        color: black;
+        font-size: 11px;
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(205, 122, 74);
+        border: 1px solid rgb(205, 122, 74);
+    }
+    .flex-btn{
+        display:    flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 230px;
+    }
+}

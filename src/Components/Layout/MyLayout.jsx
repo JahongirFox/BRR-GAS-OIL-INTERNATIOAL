@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
-import Home from "../Home/Home";
+import HomePage from '../HomePage/Main/Main'
 
 
 function MyLayout({ children }
@@ -9,7 +9,7 @@ function MyLayout({ children }
     return(
             <div>
                 <Navbar />
-                    <main>{children} <Home/> </main>
+                    <HomePage />
                 <Footer />  
             </div>
     )

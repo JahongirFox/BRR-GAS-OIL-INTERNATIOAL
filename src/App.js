@@ -1,6 +1,6 @@
 import React from'react';
 import MyLayout from './Components/Layout/MyLayout'
-import Home from './Components/Home/Home'
+import HomePage from './Components/HomePage/Main/Main'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <MyLayout>
           <Router>
             <Routes>
-              <Route exact path="/" element={<Home />} />
+              <Route exact path="/" element={<HomePage />} />
             </Routes>
           </Router>
       </MyLayout>

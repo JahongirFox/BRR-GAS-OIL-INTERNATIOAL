@@ -88,3 +88,21 @@
         width: 400px;
     }
 }
+@media (max-width: 436px){
+    .Home{
+        height: 60vh;
+    }
+    .Home2>p{
+        font-size: 35px;
+    }
+    .Home2-card1{
+        width: 300px;
+        height: 300px;
+    }
+    .Home2-card1>p{
+        font-size: 15px;
+    }
+    .Home2-card1>img{
+        width: 300px;
+    }
+}

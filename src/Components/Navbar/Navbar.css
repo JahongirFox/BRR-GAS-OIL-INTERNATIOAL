@@ -125,25 +125,25 @@ body {
   .nav-links li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
   }
   .nav-links li a:hover {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 10px;
   }
     .nav-links {
       flex-direction: column;
       text-align: center;
       background-color: #CD7A4A;
       border-radius: 10px;
-      padding: 4vh 0vh;
+      padding: 3vh 0vh;
       margin-top: 8vh;
       position: absolute;
       gap: 30px;
       top: 50px;
       right: 20px;
-      height: 400px;
+      height: 350px;
       width: 200px;
       display: none;
     }

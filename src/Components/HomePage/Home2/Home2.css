@@ -7,22 +7,84 @@
     background-color: black;
     width: 100%;
     height: 100vh;
-    /* border: 1px solid white; */
 }
-.Round{
-    border-radius: 50%;
-    width: 400px;
+.Home2>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 7%;
     color: white;
-    height: 400px;
-    border: 1px dolid white;
     text-align: center;
+}
+.Home2-card1{
+    background-color: white;
+    width: 500px;
+    height: 460px;
+    border-radius: 30px;
+}
+.Home2-card1>img{
+    border-radius: 30px;
+}
+.Home2-card1>p{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.Home2-Flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Home2-card11>p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.Flex-image{
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
-.P-blocks{
-    color: white;
-    display: block;
-    font-weight: 100;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@media (max-width:1400px){
+    .Home2-card11{
+        display: none;
+    }
+
+}
+@media (max-width:1100px){
+    
+   .Home2-Flex{
+        display: block;
+   }
+   .Home2{
+        background-color: black;
+        width: 100%;
+        height: 190vh;
+    }
+    .Block-Gap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Home2-card1{
+        margin-top: 40px;
+    }
+
+}
+@media (max-width: 570px){
+    .Home2>p{
+        font-size: 40px;
+    }
+    .Home2-card1{
+        width: 400px;
+        height: 400px;
+    }
+    .Home2-card1>p{
+        font-size: 20px;
+    }
+    .Home2-card1>img{
+        width: 400px;
+    }
 }
